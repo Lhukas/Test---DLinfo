@@ -6,7 +6,7 @@ html {
 body {
     margin: 0;
 }
-
+/*Pour retirer les bordures des inputs lors d'un clic ou d'une saisie*/
 input:focus {
     outline: none;
     border-bottom: 1px solid #c94778;
@@ -29,7 +29,7 @@ input:focus {
 .nav h2 {
     display: inline-block;
 }
-
+/*Placement du menu déroulant dans le header */
 .dropdown {
     display: inline-block;
     background-color: white;
@@ -38,11 +38,11 @@ input:focus {
     margin-left: 10px;
 
 }
-
+/*Pour faire apparaitre le contenu du menu déroulant */
 .nav:hover .dropdown-content {
     display: block;
 }
-
+/*Position du contenu du menu déroulant */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -54,7 +54,7 @@ input:focus {
     border-radius: 10px;
     right: 0px;
 }
-
+/* Gestion des balises a l'intérieur du contenu du menu déroulant */
 .dropdown-content a {
     float: none;
     padding: 10px;
@@ -84,7 +84,7 @@ input:focus {
     border-radius: 20px;
     vertical-align: middle;
 }
-
+/* Partie pour le slogan central ( position, taille, display .... )*/
 .slogan {
     display: flex;
 
@@ -101,7 +101,6 @@ input:focus {
 
 
 }
-
 .slogan h1,
 .slogan p {
     margin: 1px;
@@ -115,16 +114,16 @@ input:focus {
     color: #c4c4c4;
 }
 
-
+/* barre de recherche version ordinateur */
 .research {
     display: block;
     text-align: center;
 }
-
+/* Barre de recherche pour la version mobile */
 .research-mobile {
     display: none;
 }
-
+/* Gestion du contenu de la barre de recherches */
 .research p {
     color: rgba(42, 92, 105, 255);
 }
@@ -132,6 +131,7 @@ input:focus {
 .separation {
     border-right: 1px solid grey;
 }
+/* Tableau qui fait office de barre de recherche */
 
 .research table {
     margin: auto;
@@ -145,10 +145,6 @@ input:focus {
     margin-top: -50px;
     box-shadow: 1px 1px 20px #f1f1f1;
 }
-
-
-
-
 
 .research table th {
     padding-left: 10px;
@@ -195,7 +191,7 @@ input:focus {
 
 
 
-
+/*Contenaire pour les destinations */
 .country-destinations {
     display: grid;
     width: 100%;
@@ -207,7 +203,7 @@ input:focus {
 
 
 
-
+/* Les 3 classes suivnt sont pour placé et gerer le fond d'ecran de chaque destintions */
 .destination1 {
     grid-row-start: 1;
     grid-row-end: span 2;
@@ -227,6 +223,7 @@ input:focus {
     background-size: 120% 120%;
 }
 
+/*Div pour placer le texte dans les destinations */
 .contenu {
     display: flex;
     justify-content: flex-end;
@@ -239,12 +236,13 @@ input:focus {
 }
 
 
-
+/* Titre des pays pour les destinations */
 .contenu h1 {
     margin: 0px;
 
 }
 
+/* Pour le nombre de destinations */
 .contenu p {
     margin: 5px;
 
@@ -252,6 +250,7 @@ input:focus {
 }
 
 
+/* Bouton pour accéder a toutes les destinations */
 
 .btnDestination {
     margin: 20px auto auto auto;
@@ -267,7 +266,7 @@ input:focus {
     border: 1px solid rgba(162, 57, 96, 255);
 }
 
-
+/*Conteneur pour tout les partenaire sous display ( GRID ) */
 .partenaire {
 
     text-align: center;
@@ -278,6 +277,7 @@ input:focus {
     margin: 30px auto auto auto;
 }
 
+/* Classe pour gerer chaque design des partenaire */
 .partenaire-card {
 
     max-width: 300px;
@@ -286,29 +286,31 @@ input:focus {
     background-color: #f8f8f8;
     border-radius: 20px;
 }
-
+/*Zomm lors d'un survol des cartes partenaires */
 .partenaire-card:hover {
     transform: scale(1.1);
 }
 
+/*Gestion de l'image dans la carte du partenaires */
 .partenaire-card img {
     width: 130px;
     height: 130px;
     border-radius: 50%;
 
 }
-
+/*Gestion des nom de chaque partenaire */
 .partenaire-name {
     font-size: 15px;
     color: #c94778;
 }
-
+/*Paragraphe de chaque partenaires */
 .description {
     width: 90%;
     margin: auto;
     color: #cfcfcf;
 }
 
+/*Bouton des slides qui servira uniquement lors de la version mobile */
 .btnSlide {
     display: none;
 }

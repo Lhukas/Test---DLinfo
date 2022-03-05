@@ -3,7 +3,9 @@
 <link rel="stylesheet" href="CSS.css">
 <link rel="stylesheet" href="CCS_MOBILE.css">
 <meta charset="UTF-8">
+<!-- Lien vers cloudfare pour une maison d'icones -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- les 3 Lien suivant sont vers des polices d'ecritures Google fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
@@ -247,7 +249,7 @@
 
 
 <script>
-  //Initialisation des valeurs et de la couleur du bouton du diaporama
+  //Initialisation des valeurs et de la couleur des span du diaporama
   CurrentSlide = 1
   document.getElementsByClassName("dot")[0].style.background = "rgb(236, 236, 236)"
 
@@ -261,7 +263,7 @@
 
     SlideCurrent = document.getElementById("partenaire-" + CurrentSlide)
 
-    //Timeur pour faire disparaitre la diapositive
+    //Timeur pour faire disparaitre la diapositive, l'utilisation du timeur est utile pour crée une différance de temps avec l'animation
     setTimeout(function () {
       SlideCurrent.style.display = "none"
 
@@ -270,13 +272,11 @@
 
 
 
-
+//Changement de la couleur de fond des span pour faire un effet de transition
     document.getElementsByClassName("dot")[CurrentSlide - 1].style.backgroundColor = "transparent";
-
-
     document.getElementsByClassName("dot")[nbSlide - 1].style.background = "rgb(236, 236, 236)";
 
-
+    //On place le numéro de slide actuelle dans une valeur pour ce repérer
     CurrentSlide = nbSlide
 
 

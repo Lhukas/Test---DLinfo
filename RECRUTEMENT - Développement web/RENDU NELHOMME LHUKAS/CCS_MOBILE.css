@@ -1,4 +1,7 @@
 @media (max-device-width:425px) {
+
+    /*La plupart des classes suivantes sont juste des ajustements au niveau de la taille, des espacements, margin 
+    ..Etc. mais aussi des suppressions de certains éléments ( Display : none) et changement des grilles colonnes et lignes*/
     .header {
         height: 1600px;
         background-size: 250% 200%;
@@ -40,7 +43,7 @@
         width: 45px;
         height: 45px;
     }
-
+/*Barre de recherche pour la version mobile */
     .research-mobile {
         display: block;
         position: absolute;
@@ -60,7 +63,7 @@
         border: 1px solid #c4c4c4;
 
     }
-
+/*Position de l'input dans la barre de recherche */
     .research-mobile input {
 
         float: left;
@@ -71,35 +74,22 @@
         font-size: 30px;
 
     }
-
-
+/*Position du button dans la barre de recherche */
     .research-mobile button {
 
         float: right;
         width: 10%;
         height: 80px;
-
-
         background-color: #c94778;
-
         color: white;
-
         border: 1px solid rgba(162, 57, 96, 255);
         border-radius: 10px;
         font-size: 30px;
     }
 
 
-
-
-
-
-
     .slogan {
-
-
         margin: 110% 10% 0px 10%;
-
     }
 
     .slogan h1 {
@@ -214,6 +204,7 @@
         cursor: pointer;
     }
 
+    /*Animation pour l'apparition et la disparition en jouant sur la transparence */
     @keyframes disparition {
         0% {
             opacity: 1;
