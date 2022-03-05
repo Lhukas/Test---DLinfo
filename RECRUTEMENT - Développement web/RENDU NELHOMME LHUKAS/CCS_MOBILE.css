@@ -1,0 +1,287 @@
+@media (max-device-width:425px) {
+    .header {
+        height: 1600px;
+        background-size: 250% 200%;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .top-header {
+
+        font-size: 30px;
+    }
+
+    .research {
+
+        display: none;
+
+    }
+
+    .dropdown {
+        padding: 14px 30px 14px 30px;
+        border-radius: 40px;
+    }
+
+    .dropdown-content {
+        width: 70%;
+    }
+
+    .dropdown-content a {
+        padding: 40px;
+        font-size: 40px;
+    }
+
+    .menu {
+        width: 40px;
+        height: 40px;
+    }
+
+    .menu-img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .research-mobile {
+        display: block;
+        position: absolute;
+        background-color: white;
+        width: 90%;
+        align-items: center;
+        height: 85px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        bottom: 85%;
+        text-align: center;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 20px #f1f1f1;
+        border: 1px solid #c4c4c4;
+
+    }
+
+    .research-mobile input {
+
+        float: left;
+        height: 80px;
+        width: 85%;
+        border: none;
+        color: #c4c4c4;
+        font-size: 30px;
+
+    }
+
+
+    .research-mobile button {
+
+        float: right;
+        width: 10%;
+        height: 80px;
+
+
+        background-color: #c94778;
+
+        color: white;
+
+        border: 1px solid rgba(162, 57, 96, 255);
+        border-radius: 10px;
+        font-size: 30px;
+    }
+
+
+
+
+
+
+
+    .slogan {
+
+
+        margin: 110% 10% 0px 10%;
+
+    }
+
+    .slogan h1 {
+        font-size: 60px;
+    }
+
+    .slogan p {
+        font-size: 30px;
+    }
+
+    .paragraphe {
+        font-size: 25px;
+    }
+
+    .country-destinations {
+        grid-template-columns: 1fr;
+        height: 1000px;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .destination1 {
+        grid-row-end: span 1;
+    }
+
+    .contenu {
+        border-radius: 60px;
+        padding: 50px;
+    }
+
+    .contenu h1 {
+        font-size: 48px;
+    }
+
+    .contenu p {
+        font-size: 24px;
+    }
+
+
+
+    .TitleSection {
+        font-size: 80px;
+    }
+
+    .btnDestination {
+
+        padding: 35px;
+        font-size: 40px;
+        border-radius: 30px;
+        margin-top: 40px;
+
+    }
+
+
+    .partenaire {
+
+
+        grid-template-columns: 1fr;
+        margin: 60px auto auto auto;
+
+
+    }
+
+    .partenaire-card {
+        margin: auto;
+        max-width: none;
+        width: 75%;
+        border-radius: 100px;
+        height: 800px;
+        padding: 70px 20px 20px 20px;
+    }
+
+    .partenaire-card img {
+        width: 260px;
+        height: 260px;
+    }
+
+    .partenaire-name {
+        font-size: 45px;
+    }
+
+    .description {
+        width: 75%;
+
+        font-size: 40px;
+    }
+
+    #partenaire-2 {
+        display: none;
+    }
+
+    #partenaire-3 {
+        display: none;
+    }
+
+    #partenaire-4 {
+        display: none;
+    }
+
+    .btnSlide {
+        display: block;
+        margin: 40px auto 60px auto;
+
+        text-align: center;
+    }
+
+    .dot {
+        height: 35px;
+        width: 35px;
+        border: 1px solid #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    @keyframes disparition {
+        0% {
+            opacity: 1;
+
+        }
+
+        100% {
+            opacity: 0;
+
+        }
+    }
+
+    @keyframes apparition {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+
+
+
+    .community {
+        padding-top: 30px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .copyright {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr;
+        gap: 30px;
+
+    }
+
+    .community h1 {
+        font-size: 10px;
+    }
+
+    .Social-network {
+        text-align: start;
+    }
+
+    .Social-network p {
+        font-size: 30.65px;
+    }
+
+    .logoSocial {
+        width: 45px;
+        height: 45px;
+        margin-left: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
